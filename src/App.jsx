@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ModalPopup from "./Modals";
 
 function App() {
-  const [open, setOpen] = useState(true); // Set true for demo
+  const [open, setOpen] = useState(false); // Set true for demo
 
   return (
     <div className="p-4" style={{ minHeight: "100vh", background: "#f6f8fa" }}>
